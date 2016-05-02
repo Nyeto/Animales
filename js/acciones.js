@@ -1,7 +1,9 @@
 //JavaScript
 	
 $(document).ready(function(e){	
-$('#principal').height($('#page').height());//calcular el alto de la pantalla del dispositivo
+$('#principal').height($('#page').height());
+$('#principal').height($('#page2').height());
+$('#principal').height($('#page3').height());//calcular el alto de la pantalla del dispositivo
 	document.addEventListener("deviceready",function(){
 	//precarga el sonido
 	audio=window.plugins.LowLatencyAudio;
