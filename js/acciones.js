@@ -23,8 +23,8 @@ $('#principal').height($('#page3').height());//calcular el alto de la pantalla d
 	
 	//reproducir las notas
 	
-	$('.nota').bind('touchstart', function(){$(this).addClass('tocada'); audio.play($(this).attr('id'));});
-	$('.nota').bind('touchend',function(){$(this).removeClass('tocada');});
+	$('.animal').bind('touchstart', function(){$(this).addClass('tocada'); audio.play($(this).attr('id'));});
+	$('.animal').bind('touchend',function(){$(this).removeClass('tocada');});
 	
 	
 	},false); //deviceready
